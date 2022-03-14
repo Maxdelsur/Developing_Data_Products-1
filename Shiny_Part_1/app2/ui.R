@@ -9,7 +9,7 @@ shinyUI(fluidPage(
     ),
     mainPanel(
       h3("Main Panel Text"),
-      code("Some Code!")
+      code("data <- read.csv(~/matanga.csv)")
     )
   )
 ))

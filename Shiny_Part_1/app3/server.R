@@ -1,4 +1,4 @@
 library(shiny)
 shinyServer(function(input, output) {
-  output$text <- renderText(input$slider1)
+  output$text <- renderText(input$slider1 +15)
 })

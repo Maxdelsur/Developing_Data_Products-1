@@ -242,7 +242,7 @@ require more setup compared to other Plotly graphics.
 state_pop <- data.frame(State = state.abb, Pop = as.vector(state.x77[,1]))
 # Create hover text
 state_pop$hover <- with(state_pop, paste(State, '<br>', "Population:", Pop))
-# Make state borders white
+# Make state borders ews
 borders <- list(color = toRGB("red"))
 # Set up some mapping options
 map_options <- list(
